@@ -1,6 +1,6 @@
 SummerNote
 ==========
-#####version：2014-9-30 21:12:57
+######version：2014-9-30 21:12:57
 ###SummerNote简介：
 国外某大神基于bootstrap开发的一款文本编辑器，这里只是share一个设置好的中文版本，并提供一些中文说明。
 ###SummerNote介绍：
