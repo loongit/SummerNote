@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ <meta charset="utf-8">
+ <meta name="description" content="Super Simple WYSIWYG Editor on Bootstrap">
+ <meta name="author" content="https://github.com/HackerWins">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+ <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="//twitter.github.io/bootstrap/assets/js/html5shiv.js"></script>
+  <![endif]-->
+  <!-- add library -->
+
+<!-- include libries(jQuery, bootstrap, fontawesome) -->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script> 
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- include summernote css/js-->
+<link rel="stylesheet" href="css/summernote.css" />
+<script type="text/javascript" src="js/summernote.js"></script>
+<!-- include summernote lang-->
+<script type="text/javascript" src="lang/summernote-zh-CN.js"></script>
+<script>
+	
+	$(document).ready(function() {
+  		$('#summernote').summernote();
+});
+</script>
+
+
+<title>SummerNote文本编辑器</title>
+
+</head>
+
+
+<body>
+ <div class="container">
+		<div class="row">
+		 		<form>
+					<div id="summernote" ></div>
+					<intput type="submit" value="提交">
+				</form>
+		</div>
+</div>
+
+</body>
+</html>
